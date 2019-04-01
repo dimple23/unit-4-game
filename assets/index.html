@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Captain Planet: The Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  
+  <script type="text/javascript" src="../javascript/game.js"></script>
+</head>
+<body>
+
+  
+      <div class="card text-white bg-info fa-text-center mb-3" >
+          <div class="card-header " >
+            <h2 class="text-center bg-danger" >Crystal Game</h2></div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Instruction</h5>
+            <h6 class="text-center">1. You will be given a random #</h6>
+            <h6 class="text-center">2. There are four crystals, each holding a specfic value</h6>
+            <h6 class="text-center">3. Click on a crystal, and that value will be added to your score</h6>
+            <h6 class="text-center">Win = your total score matches the random #</h6>
+            <h6 class="text-center">Lose = your total score goes above the random #</h6>
+            <h6 class="text-center">Note: </h6>
+            <h6 class="text-center">-The crystal's value is hidden until you click on it.</h6>
+            <h6 class="text-center">-Each time the game starts, the values will change.</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+        <div class="card border-info random mb-3 my-3" style="max-width: 10rem;">
+            <div class="card-header"  >Random Number is ::</div>
+            <div class="card-body text-info">
+              <h5 class="card-title"></h5>
+              <p class="card-text " id="randomSpace">
+                  
+              </p>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card border-info random mb-3 my-3" style="max-width: 10rem;">
+            <div class="card-header"  >Your total score is:</div>
+            <div class="card-body text-info">
+              <h5 class="card-title"></h5>
+              <p class="card-text " id="totalScore"></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card border-info random mb-3 my-3" style="max-width: 10rem;">
+            <div class="card-header win"  >Wins:</div>
+            <div class="card-body text-info">
+              <h5 class="card-title"></h5>
+              <p class="card-text " id="winCount"></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card border-info random mb-3 my-3" style="max-width: 10rem;">
+            <div class="card-header"  >Losses:</div>
+            <div class="card-body text-info">
+              <h5 class="card-title"></h5>
+              <p class="card-text " id="lossCount"></p>
+            </div>
+        </div>
+      </div>
+        </div>
+
+        <div class="card text-white bg-info fa-text-center mb-3" >
+            <div class="card-header " >
+              <h2 class="text-center bg-danger" >Crystal Collector</h2></div>
+  
+    </div>
+    <div class="row">
+        <div class="col-3">
+        <img src="../image/1.png" alt="img1" class="img1" id="imgOne">
+        </div>
+        <div class="col-3">
+        <img src="../image/2.png" alt="img2" 
+        class="img2" id="imgTwo">
+        </div>
+        <div class="col-3">
+        <img src="../image/3.png" alt="img3" class="img3" id="imgThree">
+        </div>
+        <div class="col-3">
+        <img src="../image/4.png" alt="img4" class="img4" id="imgFour"> 
+        </div>
+    </div>
+   </div>
+<!-- End of HTML -->
+
+  </body>
+</html>
